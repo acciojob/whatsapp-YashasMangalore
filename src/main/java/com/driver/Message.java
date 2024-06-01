@@ -9,6 +9,11 @@ public class Message
     private Date timestamp;
     private User sender; // Add sender field
 
+    public Message(int id, String content) {
+        this.id = id;
+        this.content = content;
+    }
+
     public Message(int id, String content, Date timestamp, User sender) {
         this.id = id;
         this.content = content;
