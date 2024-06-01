@@ -60,8 +60,9 @@ public class Group
     }
 
     public boolean isAdmin(User user) {
-        return admin != null && admin.equals(user);
+        return admin != null && user != null && admin.equals(user);
     }
+
 
     public void changeAdmin(User newAdmin) {
         admin = newAdmin;

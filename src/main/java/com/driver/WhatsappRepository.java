@@ -151,6 +151,7 @@ public class WhatsappRepository {
         return "SUCCESS";
     }
 
+
     public int removeUser(User user) throws Exception {
         boolean userFound = false;
 
